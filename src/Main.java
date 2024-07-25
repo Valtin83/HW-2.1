@@ -54,7 +54,7 @@ public class Main {
         var workers = openingHours / workingHours;
         System.out.println("Всего работников в компании " + workers + " человек.");
         workers = workers + 94;
-        var newOpeningHours = workers * 8;
+        var newOpeningHours = workers * workingHours;
         System.out.println("Если в компании работает " + workers + " человек, то всего " + newOpeningHours + " часов работы может быть поделено между сотрудниками.");
 
     }
